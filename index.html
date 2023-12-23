@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>AR-Test</title>
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    ARのテストです。
+    <div id="ar-view">
+        <model-viewer alt="" src="./ar/data-android.gltf" ios-src="./ar/data-ios.usdz" ar
+            camera-controls></model-viewer>
+    </div>
 </body>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 </html>
